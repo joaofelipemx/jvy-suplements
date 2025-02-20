@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+}
+
 .open-sans-open-sans {
   font-family: "Open Sans ", serif;
   font-optical-sizing: auto;
@@ -17,16 +21,13 @@ body {
 header {
     display: flex;
     flex-direction: column;
-}
-
-.logo {
     width: 100%;
 }
 
 .top-bar {
     background-color: #262626;
     color: white;
-    padding: 15px;
+    padding: 2vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -36,9 +37,12 @@ header {
 
 nav {
     background-color: #BCBABA;
+}
+
+nav ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+
 }
 
 .links-nav {
@@ -83,13 +87,14 @@ a {
 
 .header-buttons {
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
 }
 
 .unic-button {
     display: flex;
     align-items: center;
     margin-right: 2vh;
+
 }
 
 .unic-button p, .unic-button a{
@@ -106,7 +111,7 @@ a {
 
 #barra-pesquisa {
     background-color: #DEDEDE;
-    width: 50vh;
+    width: 30vh;
     height: 3vh;
     margin-right: 4vh;
     border: 0.5px #ffffff solid;
@@ -145,6 +150,10 @@ footer .email p {
     margin-top: 10px;
 }
 
+.banner {
+    margin: 0;
+}
+
 .banner img {
     width: 100%;
 }
@@ -156,6 +165,7 @@ footer .email p {
 
 .suplementos {
     margin: 2vh;
+    background-color: #F2F0F0;
 }
 
 .acessorios {
@@ -165,11 +175,13 @@ footer .email p {
 .product {
     background-color: #D9D9D9;
     display: flex;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
     width: 30vh;
+    height: 35vh;
     margin: 1vh 1vh;
-    padding: 3vh 1vh;
+    padding: 3vh 2vh;
     border: #FFFFFF solid 2px;
     border-radius: 2vh;
 }
@@ -188,13 +200,13 @@ footer .email p {
 .product p {
     font-family: 'Open Sans';
     font-weight: 300;
-    font-size: 1.5vh;
+    font-size: 2vh;
     margin: 0.5vh 0;
 }
 
 .product p strong {
     font-family: 'Open Sans';
-    font-size: 1.7vh;
+    font-size: 2.3vh;
 }
 
 .suplementos h2 {
