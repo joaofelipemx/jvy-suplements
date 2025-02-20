@@ -32,21 +32,31 @@ header {
     align-items: center;
 }
 
+/* Barra de navegação */
+
 nav {
     background-color: #BCBABA;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .links-nav {
     list-style-type: none;
     display: flex;
-    margin: 7.51px 0 7.51px 0;
-    justify-content: space-evenly;
-    padding-left: 0;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 1vh 0;
     color: #000000;
 }
 
 .links-nav li {
     color: #000000;
+}
+
+li a {
+    margin: 0 8vh;
 }
 
 a {
@@ -143,6 +153,60 @@ footer .email p {
 
 
 /* Containers dos produtos */
+
+.suplementos {
+    margin: 2vh;
+}
+
+.acessorios {
+    margin: 0;
+}
+
 .product {
-    
+    background-color: #D9D9D9;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 30vh;
+    margin: 1vh 1vh;
+    padding: 3vh 1vh;
+    border: #FFFFFF solid 2px;
+    border-radius: 2vh;
+}
+
+.product-grid {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.product img {
+    height: 20vh;
+    margin-bottom: 2vh;
+}
+
+.product p {
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-size: 1.5vh;
+    margin: 0.5vh 0;
+}
+
+.product p strong {
+    font-family: 'Open Sans';
+    font-size: 1.7vh;
+}
+
+.suplementos h2 {
+    font-size: 3vh;
+    font-family: 'Open Sans';
+    font-weight: 700;
+}
+
+.acessorios h2 {
+    margin: 0 0 0 2vh;
+    color: #ffffff;
+    font-size: 3vh;
+    font-family: 'Open Sans';
+    font-weight: 700;
 }
