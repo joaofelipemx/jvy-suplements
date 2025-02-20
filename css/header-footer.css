@@ -1,0 +1,166 @@
+/* Cabeçalho */
+
+header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.top-bar {
+    background-color: #262626;
+    color: white;
+    padding: 2vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Barra de navegação */
+
+nav {
+    background-color: #BCBABA;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.links-nav {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 1vh 0;
+    color: #000000;
+}
+
+.links-nav li {
+    color: #000000;
+}
+
+li a {
+    margin: 0 8vh;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.top-bar {
+    height: 10vh;
+    align-items: center;
+}
+
+.top-bar img {
+    width: 13vh;
+    height: 13vh;
+    margin: 0.5vh 4vh 0.5vh 2vh;   
+}
+
+.header-buttons {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0 4vh;
+}
+
+.unic-button {
+    display: flex;
+    align-items: center;
+    margin-right: 2vh;
+
+}
+
+.unic-button p, .unic-button a{
+    color: #DEDEDE;
+    font-size: 2.4vh;
+}
+
+.unic-button img {
+    display: flex;
+    width: 4vh;
+    height: 4vh;
+    margin-right: 1vh;
+}
+
+.search-button {
+    background-color: #DEDEDE;
+    border-radius: 1.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-bar input {
+    color: #020202;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    padding: 1vh;
+    font-size: 2vh;
+    background-color: #DEDEDE;
+    border-radius: 1.5vh;
+    width: 30vh;
+    height: 3vh;
+    outline: none;
+    border: none;
+} 
+
+.vertical-line {
+    border-left: 0.35vh solid #262626;
+    opacity: 0.7;
+    height: 3vh;
+}
+
+#search-search {
+    height: 3.4vh;
+    width: 3.4vh;
+    margin: 0 0.7vh 0 1.4vh;
+}
+
+.search-button img {
+    height: 3.4vh;
+    width: 3.4vh;
+}
+
+.search-button input::placeholder {
+    color: #262626;
+    font-family: 'Open Sans';
+    font-weight: 400;
+}
+
+
+.acessorios {
+    background-color: #000000;
+}
+
+/* Cabeçalho até aqui*/
+
+
+
+/* Rodapé */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer .formas-pagamento, footer .redes-sociais {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+footer .pagamento img, footer .social img {
+    width: 40px;
+    height: auto;
+}
+
+footer .email p {
+    margin-top: 10px;
+}
