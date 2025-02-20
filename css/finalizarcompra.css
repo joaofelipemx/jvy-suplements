@@ -1,0 +1,274 @@
+/* Corpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1C2A39;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabeçalho */
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+.top-bar {
+    background-color: #262626;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+}
+
+nav {
+    background-color: #BCBABA;
+}
+
+.links-nav {
+    list-style-type: none;
+    display: flex;
+    margin: 7.51px 0;
+    justify-content: space-evenly;
+    padding-left: 0;
+    color: #000000;
+}
+
+.links-nav li {
+    color: #000000;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+/* Logo */
+.top-bar img {
+    width: 10vh;
+    height: 10vh;
+    margin: 0.5vh 4vh 0.5vh 2vh;
+}
+
+/* Botão de barra de pesquisa */
+.top-bar input {
+    padding: 1vh;
+    border-radius: 1.25vh;
+    font-size: 2vh;
+}
+
+.header-buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+.unic-button {
+    display: flex;
+    align-items: center;
+    margin-right: 2vh;
+}
+
+.unic-button p, .unic-button a {
+    color: #DEDEDE;
+    font-size: 2.4vh;
+}
+
+.unic-button img {
+    width: 4vh;
+    height: 4vh;
+    margin-right: 1vh;
+}
+
+#barra-pesquisa {
+    background-color: #DEDEDE;
+    width: 50vh;
+    height: 3vh;
+    margin-right: 4vh;
+    border: 0.5px #ffffff solid;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.finalizar-compra {
+    background-color: #0f182a;
+    padding: 20px;
+    width: 80%;
+    border-radius: 8px;
+    color: #fff;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #fff;
+}
+
+.secao-endereco, .secao-pagamento, .secao-itens, .secao-resumo {
+    margin-bottom: 20px;
+    background-color: #1d2c45;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.secao-endereco h2, .secao-pagamento h2, .secao-itens h2, .secao-resumo h2 {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.endereco, .endereco-cobranca {
+    background-color: #1f2f4a;
+    padding: 10px;
+    border: 1px solid #1c263d;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    color: #ddd;
+}
+
+.adicionar-endereco, .adicionar-pagamento {
+    background-color: #0a71ef;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.cupom {
+    margin-top: 10px;
+}
+
+.cupom input {
+    padding: 10px;
+    margin-right: 5px;
+    width: 60%;
+    border-radius: 4px;
+    border: 1px solid #333;
+    background-color: #1a2c45;
+    color: #ddd;
+}
+
+.cupom button {
+    padding: 10px 12px;
+    background-color: #0a71ef;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1d2c45;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.item img {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+.detalhes-item {
+    flex: 1;
+    padding-left: 10px;
+    color: #fff;
+}
+
+.detalhes-item p {
+    margin-bottom: 8px;
+}
+
+.quantidade select {
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #333;
+    background-color: #1a2c45;
+    color: #ddd;
+}
+
+.opcao-entrega {
+    background-color: #1d2c45;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #333;
+    margin-top: 10px;
+    color: #fff;
+}
+
+.opcao-entrega p {
+    margin-bottom: 10px;
+}
+
+.resumo-compra {
+    background-color: #1d2c45;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+    border: 1px solid #333;
+}
+
+.resumo-compra p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #ccc;
+}
+
+.resumo-compra h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.finalizar-pedido {
+    background-color: #0a71ef;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    margin-top: 15px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+footer .formas-pagamento, footer .redes-sociais {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+footer .pagamento img, footer .social img {
+    width: 40px;
+    height: auto;
+}
+
+footer .email p {
+    margin-top: 10px;
+}
