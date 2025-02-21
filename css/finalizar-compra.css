@@ -58,6 +58,7 @@ section > div {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    align-items: center;
 }
 
 .side-other {
@@ -206,9 +207,10 @@ hr {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: left;
+    width: 100%;
 }
 
-.resumo-pedido, .total-pedido h2 {
+.resumo-pedido h2, .total-pedido h2 {
     font-size: 2vh;
     font-family: 'Open Sans';
     font-weight: 700;
@@ -241,9 +243,23 @@ hr {
 .total-pedido {
     display: flex;
     flex-flow: column wrap;
-    justify-content: center;
+    justify-content: left;
+    width: 100%;
 }
 
 .total-pedido .subtext {
     margin: 0;
+}
+
+.resumo-pedido .side-other {
+    display: flex;
+    justify-content: space-between;
+}
+
+.resumo-pedido p {
+    font-size: 1.4vh;
+}
+
+.resumo-text {
+    margin-left: 2vh;
 }

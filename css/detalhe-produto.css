@@ -33,20 +33,21 @@ main {
 }
 
 .imagens-produto {
-        width: 162,75px;
-        height: 261,75px;
+        height: 30vh;
         display: flex;
 }
 
 .imagem-principal {
     width: 100%;
+
 }
 
 .miniaturas {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    margin-top: 10px;
+    margin: 0 2vh;
+    width: 60%;
 }
 
 .miniatura {
