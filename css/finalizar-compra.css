@@ -1,0 +1,249 @@
+/* Corpo */
+* {
+    margin: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F2F0F0;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    padding: 2vh;
+}
+
+input {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    color: #DEDEDE;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+label {
+    margin-right: 1vh;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+section > div {
+    margin-bottom: 5vh;
+}
+
+.principal-text {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 2vh;
+}
+
+.by-text {
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 1.5vh;
+    color: #DEDEDE;
+}
+
+.secao-endereco {
+    margin-bottom: 2vh;
+}
+
+.same-line {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.side-other {
+    display: flex;
+    margin: 0.3vh 2vh 0.3vh 0 ;
+    align-items: center;
+}
+
+.side-other select {
+    background-color: #0a71ef;
+    color: #DEDEDE;
+    font-family: 'Open Sans';
+    font-weight: 500;
+    border: none;
+    padding: 0.2vh;
+    border-radius: 1vh;
+}
+
+.content-box {
+    background-color: #1B2431;
+    padding: 2vh;
+    border-radius: 2vh;
+    border: 0.15vh solid #FFFFFF;
+}
+
+.secao-pagamento {
+    margin: 4vh 0;
+}
+
+.secao-resumo {
+    width: 20%;
+}
+
+.finalizar-compra {
+    background-color: #0f182a;
+    padding: 5vh;
+    border-radius: 5vh;
+    color: #fff;
+}
+
+.all-content {
+    display: flex;
+}
+ 
+
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 4vh;
+    color: #fff;
+}
+
+.secao-endereco h2, .secao-pagamento h2, .secao-itens h2, .secao-resumo h2 {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 3vh;
+    color: #FFFFFF;
+    margin-bottom: 1vh;
+    font-weight: 700;
+}
+
+.content-above {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.left-content {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.left-content img {
+    height: 25vh;
+}
+
+.secao-itens .content-box:del(img) {
+    display: flex;
+    flex-flow: row;
+}
+
+.detalhes-item {
+    display: flex;
+    flex-flow: row wrap;  
+    margin: 2vh 0;
+}
+
+.imaginary-line {
+    border-left: 3vh solid #FFFFFF;
+    width: 100%;
+}
+
+.checkout-box {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    border: 0.2px solid #FFFFFF;
+    border-radius: 2vh;
+    padding: 2vh;
+    width: 40vh;
+}
+
+.information-products {
+    width: 60%;
+    margin: 3vh;
+}
+
+
+.checkout-box button {
+    width: 20vh;
+    margin: 1.5vh 0;
+    padding: 1vh;
+    background-color: #1E78FF;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+    border-radius: 1vh;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 2.3vh;
+}
+
+.subtext {
+    text-align: center;
+    color: #DEDEDE;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 1.3vh;
+    margin: 0 0 1.5vh 0;
+}
+
+.subtext a {
+    color: #1E78FF;
+}
+
+hr {
+    width: 90%;
+    margin-bottom: 1.5vh;
+}
+
+.resumo-pedido {
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: left;
+}
+
+.resumo-pedido, .total-pedido h2 {
+    font-size: 2vh;
+    font-family: 'Open Sans';
+    font-weight: 700;
+}
+
+.resumo-pedido {
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 1.5vh;
+    color: #DEDEDE;
+    margin-bottom: 1.5vh;
+}
+
+.resumo-pedido .side-other {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin: 0;
+}
+
+.total-pedido a {
+    color: #1E78FF;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 1.3vh;
+    margin: 0 0 1.5vh 0;
+    text-align: center;
+}
+
+.total-pedido {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.total-pedido .subtext {
+    margin: 0;
+}

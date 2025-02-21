@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JVY Suplements</title>
+    <link rel="stylesheet" href="css/finalizar-compra.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/header-footer.css">
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <a href="index.html"><img src="img\logo-sem-fundo.png" alt="JVY Logo" class="logo"></a>
+            <div class="search-button">
+                <img id="search-search" src="/img/icons/search_24dp_262626_FILL0_wght400_GRAD0_opsz24.png" alt="">
+                <div class="vertical-line"></div>
+                <input id="barra-pesquisa" type="text" placeholder="Pesquise aqui...">
+            </div>
+
+
+
+            <div class="header-buttons">
+                <div class="unic-button">
+                    <img src="img\icon-account.png" alt="">
+                    <p><strong><a href="cadastro.html">Cadastre-se</a></strong> ou <strong><a href="login.html">faça login</a></strong></p>
+                </div>
+
+                <div class="unic-button">
+                    <img src="img/icon-local-shipping.png" alt="">
+                    <p><strong><a href="">Calcule seu frete</a></strong></p>
+                </div>
+
+                <div class="unic-button">
+                    <img id="cart-icon" src="/img/cart.png">
+                </div>
+            </div>
+        </div>
+
+
+        <nav class="main-nav">
+            <ul class="links-nav">
+                <li><a href="#">TOP 8</a></li>
+                <li><a href="whey.html">WHEY PROTEIN</a></li>
+                <li><a href="#">CREATINA</a></li>
+                <li><a href="#">VITAMINAS</a></li>
+                <li><a href="#">ACESSÓRIO</a></li>
+                <li><a href="#">EMAGRECEDORES</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+            <section class="finalizar-compra">
+                <h1>Finalizar a compra</h1>
+                <div class="all-content">
+                    <div class="information-products">
+                        <div class="secao-endereco">
+                            <h2>Endereço de entrega</h2>
+                            <div class="content-box">
+                                <form>
+                                    <div class="same-line">
+                                        <label for="nome">Nome Completo:</label>
+                                        <input type="text" id="nome" name="nome" required>
+                                        <label for="rua">Rua:</label>
+                                        <input type="text" id="rua" name="rua" required>
+                                    </div>
+                                    <div class="same-line">
+                                        <div class="side-other">
+                                            <label for="bairro">Bairro:</label>
+                                            <input type="text" id="bairro" name="bairro" required>
+                                        </div>
+                                        <div class="side-other">
+                                            <label for="cep">CEP:</label>
+                                            <input type="text" id="cep" name="cep" required pattern="\d{5}-\d{3}" placeholder="00000-000">
+                                        </div>
+                                    </div>
+                                    <div class="side-other">
+                                        <label for="cidade">Cidade:</label>
+                                        <input type="text" id="cidade" name="cidade" required>
+                                    </div>
+                                        <div class="side-other">
+                                            <label for="uf">UF:</label>
+                                            <select id="uf" name="uf" required>
+                                                <option value="">Selecione</option>
+                                                <option value="AC">AC</option>
+                                                <option value="AL">AL</option>
+                                                <option value="AP">AP</option>
+                                                <option value="AM">AM</option>
+                                                <option value="BA">BA</option>
+                                                <option value="CE">CE</option>
+                                                <option value="DF">DF</option>
+                                                <option value="ES">ES</option>
+                                                <option value="GO">GO</option>
+                                                <option value="MA">MA</option>
+                                                <option value="MT">MT</option>
+                                                <option value="MS">MS</option>
+                                                <option value="MG">MG</option>
+                                                <option value="PA">PA</option>
+                                                <option value="PB">PB</option>
+                                                <option value="PR">PR</option>
+                                                <option value="PE">PE</option>
+                                                <option value="PI">PI</option>
+                                                <option value="RJ">RJ</option>
+                                                <option value="RN">RN</option>
+                                                <option value="RS">RS</option>
+                                                <option value="RO">RO</option>
+                                                <option value="RR">RR</option>
+                                                <option value="SC">SC</option>
+                                                <option value="SP">SP</option>
+                                                <option value="SE">SE</option>
+                                                <option value="TO">TO</option>
+                                            </select>
+                                        </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="secao-pagamento">
+                            <h2>Método de pagamento</h2>
+                            <div class="content-box">
+                                <form action="#">
+                                    <div class="same-line">
+                                        <div class="side-other">
+                                            <label for="numero-cartao">Número do Cartão:</label>
+                                            <input type="text" id="numero-cartao" name="numero-cartao" required pattern="\d{16}" placeholder="0000 0000 0000 0000">
+                                        </div>
+                                        <div class="side-other">
+                                            <label for="data-expiracao">Data de Expiração:</label>
+                                            <input type="text" id="data-expiracao" name="data-expiracao" required pattern="\d{2}/\d{2}" placeholder="MM/AA">
+                                        </div>
+                                    </div>
+                                    <div class="same-line">
+                                        <div class="side-other">
+                                            <label for="cvc">CVC:</label>
+                                            <input type="text" id="cvc" name="cvc" required pattern="\d{3}" placeholder="000">
+                                        </div>
+                                        <div class="side-other">
+                                            <label for="titular">Titular do Cartão:</label>
+                                            <input type="text" id="titular" name="titular" required>
+                                        </div>
+                                    </div>
+                                    <div class="same-line">
+                                        <div class="side-other">
+                                            <label for="parcelas">Parcelas Disponíveis:</label>
+                                            <select id="parcelas" name="parcelas" required>
+                                                <option value="">Selecione</option>
+                                                <option value="1x">1x sem juros</option>
+                                                <option value="2x">2x sem juros</option>
+                                                <option value="3x">3x sem juros</option>
+                                                <option value="4x">4x sem juros</option>
+                                                <option value="5x">5x sem juros</option>
+                                                <option value="6x">6x sem juros</option>
+                                            </select>
+                                        </div>
+                                        <div class="side-other">
+                                            <label for="cupom">Adicionar Cupom:</label>
+                                            <input type="text" id="cupom" name="cupom" placeholder="Insira seu cupom">
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="secao-itens">
+                            <h2>Revisar itens e envio</h2>
+                            <div class="content-box">
+                                <div class="content-above">
+                                    <p class="principal-text">Chegará em 22 de set. 2024 - 24 de set. 2024</p>
+                                    <p class="by-text">Itens enviados por JVYSupplements.com.br</p>
+                                </div>
+                                <div class="left-content">
+                                    <div class="detalhes-item">
+                                        <img src="img/ofc. fotos/807e1a62e0854dacb7c2a57d4914fd4e-removebg-preview.png" alt="Produto">
+                                        <div>
+                                            <p class="principal-text">Kit Dux Nutrition Whey Concentrado Pote Cookies - 900g, 600g e 350g</p>
+                                            <p class="by-text">Por JVY Supplements</p>
+                                            <p class="principal-text">R$ 278,98</p>
+                                            <form action="#">
+                                                <div class="side-other">
+                                                    <label for="quantidade">Quantidade:</label>
+                                                    <select id="quantidade" name="quantidade" required>
+                                                        <option value="">Selecione</option>
+                                                        <option value="1">1</option>
+                                                        <option value="2">2</option>
+                                                        <option value="3">3</option>
+                                                        <option value="4">4</option>
+                                                        <option value="5">5</option>
+                                                        <option value="6">6</option>
+                                                        <option value="7">7</option>
+                                                        <option value="8">8</option>
+                                                        <option value="9">9</option>
+                                                        <option value="10">10</option>
+                                                    </select>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="secao-resumo">
+                        <div class="checkout-box">
+                            <button class="finalizar-pedido">Finalizar pedido</button>
+                            <p class="subtext">Ao fazer seu pedido, você concorda com as <a href="#">Condições de Uso</a> da JVY Supplements.</p>
+                            <hr>
+
+                            <div class="resumo-pedido">
+                                <h2>Resumo do pedido</h2>
+                                <div class="side-other">
+                                    <p>Itens:</p> <p>R$ 278,98</p>
+                                </div>
+                                <div class="side-other">
+                                    <p>Frete e manuseio: R$ 0,00</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="total-pedido">
+                                <h2>Total do pedido: R$ 278,98</h2>
+                                <p class="subtext">Em até 6x de R$ 65,77 sem juros</p>
+                                <a href="#">Alterar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>JVY Supplements LTDA - Todos os Direitos Reservados - CNPJ: 123.654.987</p>
+        <p>Rua Desembargador Honofre Moisés, Nº 829, Recife/PE - CEP: 99909-000 - Telefone: (88) 99090-0909</p>
+    
+        <section class="formas-pagamento">
+            <div class="pagamento"><i class="fas fa-barcode"></i></div>
+            <div class="pagamento"><i class="fab fa-cc-visa"></i></div>
+            <div class="pagamento"><i class="fas fa-credit-card"></i></div>
+            <div class="pagamento"><i class="fas fa-exchange-alt"></i></div>
+        </section>
+    
+        <section class="redes-sociais">
+            <div class="social"><i class="fab fa-twitter"></i></div>
+            <div class="social"><i class="fab fa-instagram"></i></div>
+            <div class="social"><i class="fab fa-youtube"></i></div>
+            <div class="social"><i class="fab fa-linkedin"></i></div>
+        </section>
+    
+        <div class="email">
+            <p>sac@suplementosJVY.com</p>
+        </div>
+    </footer>
+        
+</body>
+</html>
