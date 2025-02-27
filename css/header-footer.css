@@ -51,13 +51,13 @@ a {
 }
 
 .top-bar {
-    height: 10vh;
+    height: 7vh;
     align-items: center;
 }
 
 .top-bar img {
-    width: 13vh;
-    height: 13vh;
+    width: 10vh;
+    height: 10vh;
     margin: 0.5vh 4vh 0.5vh 2vh;   
 }
 
@@ -76,13 +76,13 @@ a {
 
 .unic-button p, .unic-button a{
     color: #DEDEDE;
-    font-size: 2.4vh;
+    font-size: 2vh;
 }
 
 .unic-button img {
     display: flex;
-    width: 4vh;
-    height: 4vh;
+    width: 3vh;
+    height: 3vh;
     margin-right: 1vh;
 }
 
@@ -99,11 +99,11 @@ a {
     font-family: 'Open Sans';
     font-weight: 400;
     padding: 1vh;
-    font-size: 2vh;
+    font-size: 1.7vh;
     background-color: #DEDEDE;
     border-radius: 1.5vh;
     width: 30vh;
-    height: 3vh;
+    height: 2vh;
     outline: none;
     border: none;
 } 
@@ -111,7 +111,7 @@ a {
 .vertical-line {
     border-left: 0.35vh solid #262626;
     opacity: 0.7;
-    height: 3vh;
+    height: 2.6vh;
 }
 
 #search-search {
@@ -121,8 +121,8 @@ a {
 }
 
 .search-button img {
-    height: 3.4vh;
-    width: 3.4vh;
+    height: 2.5vh;
+    width: 2.5vh;
 }
 
 .search-button input::placeholder {

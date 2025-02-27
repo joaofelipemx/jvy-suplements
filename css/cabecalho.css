@@ -22,7 +22,7 @@ header {
 .top-bar {
     background-color: #262626;
     color: white;
-    padding: 15px;
+    padding: 2vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -35,7 +35,6 @@ nav {
 .links-nav {
     list-style-type: none;
     display: flex;
-    margin: 7.51px 0 7.51px 0;
     justify-content: space-evenly;
     padding-left: 0;
     color: #000000;
@@ -58,8 +57,8 @@ a {
 
 /* Logo */
 .top-bar img {
-    width: 10vh;
-    margin: 0vh 2vh 0vh 2vh;   
+    width: 7vh;
+    margin: 0 2vh; 
 }
 
 .top-bar input {
@@ -81,7 +80,7 @@ a {
 
 .unic-button p, .unic-button a{
     color: #DEDEDE;
-    font-size: 2.4vh;
+    font-size: 10vh;
 }
 
 .unic-button img {
